@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
 
 import pandas as pd
 
@@ -10,9 +9,6 @@ df = pd.read_csv('C:/Users/dycheng/Downloads/data_1024.csv',sep='\t')
 #print(df)
 df.head()
 #print(df['Distance_Feature'])
-
-
-# In[41]:
 
 import numpy as np
 import matplotlib 
@@ -79,30 +75,3 @@ ax.set_ylabel('Speed')
 ax.set_zlabel('ID')
 ax.set_title('n=4')
 fig.show()
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
